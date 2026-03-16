@@ -1,0 +1,12 @@
+What's new in PEPit 0.5.1
+=========================
+
+New demo:
+---------
+
+- The file `ressources/demo/PEPit_demo_algorithm_design.ipynb` contains examples for algorithm design with PEPit.
+
+Fixes:
+------
+
+- Improved constraint naming within the exact linesearch procedure.
