@@ -1,5 +1,6 @@
 from .block_smooth_convex_function_cheap import BlockSmoothConvexFunctionCheap
 from .block_smooth_convex_function_expensive import BlockSmoothConvexFunctionExpensive
+from .convex_concave_function import ConvexConcaveFunction
 from .convex_function import ConvexFunction
 from .convex_indicator import ConvexIndicatorFunction
 from .convex_lipschitz_function import ConvexLipschitzFunction
@@ -17,6 +18,7 @@ from .strongly_convex_function import StronglyConvexFunction
 
 __all__ = ['block_smooth_convex_function_cheap', 'BlockSmoothConvexFunctionCheap',
            'block_smooth_convex_function_expensive', 'BlockSmoothConvexFunctionExpensive',
+           'convex_concave_function', 'ConvexConcaveFunction',
            'convex_function', 'ConvexFunction',
            'convex_indicator', 'ConvexIndicatorFunction',
            'convex_lipschitz_function', 'ConvexLipschitzFunction',
